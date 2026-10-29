@@ -22,7 +22,9 @@ const dateFormat = new Intl.DateTimeFormat("tr-TR", { day: "numeric", month: "lo
 		<p class="mt-4 text-sm text-muted-foreground">
 			{dateFormat.format(post.data.pubDate)} · {post.data.author}
 		</p>
-		<div class="prose-wuppy mt-8 space-y-4 text-base leading-relaxed text-foreground">
+		<div
+			class="mt-8 space-y-4 text-base leading-relaxed text-foreground [&_a]:text-primary [&_a]:underline [&_h2]:pt-4 [&_h2]:text-2xl [&_h2]:font-black [&_h2]:tracking-tight [&_h3]:pt-2 [&_h3]:text-lg [&_h3]:font-bold [&_li]:ml-5 [&_li]:list-disc [&_strong]:font-bold [&_ul]:space-y-1"
+		>
 			<Content />
 		</div>
 		<div class="mt-10 flex flex-wrap gap-2 border-t border-border pt-6">
