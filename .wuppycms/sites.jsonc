@@ -3,7 +3,8 @@
 	"sites": [
 		{
 			"key": "root",
-			"name": "WuppyCMS Starter",
+			"name": "motosiklet projesi",
+			"url": "https://app.wuppycms.com/preview/wuppy-fuatcangnc-motosiklet-projesi-15tol/",
 			"media": "public",
 			"publishing": "review",
 			"collections": ["blog", "authors"]

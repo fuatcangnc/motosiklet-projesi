@@ -1,11 +1,10 @@
 export const siteSettings = {
-	brandName: "WuppyCMS Starter",
-	tagline: "A site built with Astro and Tailwind 4",
-	description:
-		"A clean, fast site generated with WuppyCMS. Replace this copy with your own story.",
+	brandName: "motosiklet projesi",
+	tagline: "Business · Minimal",
+	description: "motosiklet projesi websitesi yap çanta ruhsata işletme yapıyoruz",
 	email: "hello@example.com",
 	location: "Istanbul, Türkiye",
-	github: "",
+	github: "https://github.com/fuatcangnc/motosiklet-projesi",
 };
 
 export const navItems = [
