@@ -1,13 +1,20 @@
-# WuppyCMS With AI Starter
+# motosiklet projesi
 
-Astro + Tailwind 4 starter for sites created with **With AI**. No custom component CSS:
-the page is built with Tailwind utilities and `@theme` tokens in `src/styles/global.css`.
+Motosiklet çanta ruhsata işletme hizmeti için Astro + Tailwind 4 sitesi.
+Built on the **WuppyCMS With AI** starter: no custom component CSS, the pages are built
+with Tailwind utilities and `@theme` tokens in `src/styles/global.css`.
 
-The primary color is selected during site creation and written to `--color-primary` /
-`--color-primary-dark`.
+Primary color is written to `--color-primary` / `--color-primary-dark` (`#7c3aed`).
 
 ```sh
 pnpm install
 pnpm dev
 pnpm build
 ```
+
+## Yapı
+
+- `src/data/site.ts` — marka, iletişim, hizmetler, süreç adımları
+- `src/pages/index.astro` — Hizmetler / Hakkımızda / Blog / İletişim bölümleri
+- `src/pages/blog/` — yazı listesi ve detay sayfaları (`blog` koleksiyonu)
+- `src/content/blog` — MDX yazılar, `src/content/authors` — yazar kayıtları
