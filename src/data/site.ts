@@ -1,26 +1,67 @@
 export const siteSettings = {
 	brandName: "motosiklet projesi",
-	tagline: "Business · Minimal",
-	description: "motosiklet projesi websitesi yap çanta ruhsata işletme yapıyoruz",
-	email: "hello@example.com",
-	location: "Istanbul, Türkiye",
+	tagline: "Çanta ruhsata işletme",
+	description:
+		"Motosikletinizin çanta ve aksesuarlarını ruhsata işletiyoruz. Evrak, TSE ve tescil süreçlerini sizin adınıza takip ediyoruz.",
+	email: "info@motosikletprojesi.com",
+	phone: "+90 532 000 00 00",
+	location: "İstanbul, Türkiye",
+	hours: "Hafta içi 09:00 – 18:00 · Cumartesi 10:00 – 14:00",
 	github: "https://github.com/fuatcangnc/motosiklet-projesi",
 };
 
 export const navItems = [
-	["About", "#about"],
-	["Work", "#work"],
-	["Contact", "#contact"],
+	["Hizmetler", "#services"],
+	["Hakkımızda", "#about"],
+	["Blog", "blog/"],
+	["İletişim", "#contact"],
+];
+
+export const services = [
+	{
+		title: "Çanta ruhsata işletme",
+		text: "Yan çanta, top case ve arka çanta montajını ruhsatınıza işletiyoruz; işlem sonunda belgeniz elinizde olur.",
+	},
+	{
+		title: "TSE belgesi ve proje",
+		text: "Çantanın tip onayı ve TSE belgesini kontrol eder, eksik evrak varsa tedarikçiyle birlikte tamamlarız.",
+	},
+	{
+		title: "Muayene randevusu",
+		text: "TÜVTÜRK randevusunu sizin adınıza alır, aracın muayeneye eksiksiz gitmesini sağlarız.",
+	},
+	{
+		title: "Evrak ve tescil takibi",
+		text: "Noter, vergi dairesi ve tescil adımlarını sırayla yürütür, her aşamada size bilgi veririz.",
+	},
+	{
+		title: "Kurumsal filo",
+		text: "Kurye ve filo araçlarının çanta işletmelerini toplu olarak tek takvimde tamamlarız.",
+	},
+	{
+		title: "Danışmanlık",
+		text: "İşlemi kendi yapmak isteyenler için yol haritası ve güncel evrak listesi çıkarıyoruz.",
+	},
 ];
 
 export const highlights = [
-	{ title: "Made to last", text: "Astro ships static HTML with almost no client JavaScript." },
-	{ title: "Tailwind 4", text: "Layout, type and color are utilities; no custom component CSS." },
-	{ title: "Own your content", text: "Every change is a real Git commit in your GitHub repository." },
+	{
+		title: "Tek iş, tam odak",
+		text: "Yalnızca motosiklet çanta işletmesi yapıyoruz; süreci her hafta tekrarladığımız için hızlanıyoruz.",
+	},
+	{
+		title: "Şeffaf takip",
+		text: "Hangi evrakın hangi kurumda beklediğini bilirsiniz. Sürpriz masraf çıkarmayız.",
+	},
+	{
+		title: "Zamanında teslim",
+		text: "Ortalama 3 iş günü. Randevu ve tescil tarihini birlikte planlıyoruz.",
+	},
 ];
 
-export const work = [
-	{ title: "A clear story", text: "A focused homepage that says what you do and who it is for." },
-	{ title: "A fast stack", text: "Astro, Tailwind 4 and a static build on every push." },
-	{ title: "Room to grow", text: "Add projects, writing and pages without leaving your repository." },
+export const steps = [
+	{ title: "Ön kontrol", text: "Ruhsat ve çanta fotoğrafını gönderin, uygunluğu aynı gün bildirelim." },
+	{ title: "Evrak hazırlığı", text: "TSE belgesi, fatura ve proje evrakını biz topluyoruz." },
+	{ title: "Muayene ve tescil", text: "Randevu, muayene ve ruhsat işletme adımlarını yürütüyoruz." },
+	{ title: "Teslim", text: "İşlenmiş ruhsatınızı kurye ile veya elden teslim ediyoruz." },
 ];
